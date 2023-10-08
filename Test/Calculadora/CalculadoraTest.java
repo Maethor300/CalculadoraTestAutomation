@@ -1,5 +1,6 @@
 package Calculadora;
 
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,7 +8,8 @@ import static org.junit.Assert.*;
 
 public class CalculadoraTest {
 
-     
+       @AfterClass
+        
         @Test
         public void sumaTest(){
             Calculadora calculadora = new Calculadora(3,4);
