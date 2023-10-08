@@ -23,7 +23,7 @@ public class CalculadoraTest {
          }
     @Test
     public void multiTest(){
-        Calculadora calculadora = new Calculadora(12,5);
+        Calculadora calculadora = new Calculadora(11,5);
         assertEquals(60, calculadora.multiplicacion());
     }
     @Test
