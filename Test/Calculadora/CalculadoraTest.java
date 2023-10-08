@@ -9,18 +9,18 @@ import static org.junit.Assert.*;
 
 public class CalculadoraTest {
 
-  
 
-        @Test
-        public void sumaTest(){
-            Calculadora calculadora = new Calculadora(3,4);
-            assertEquals(7, calculadora.suma());
-        }
-        @Test
-        public void restaTest(){
-            Calculadora calculadora = new Calculadora(12,5);
+
+    @Test
+    public void sumaTest(){
+        Calculadora calculadora = new Calculadora(3,4);
+        assertEquals(7, calculadora.suma());
+    }
+    @Test
+    public void restaTest(){
+        Calculadora calculadora = new Calculadora(12,5);
         assertEquals(7, calculadora.rest());
-         }
+    }
     @Test
     public void multiTest(){
         Calculadora calculadora = new Calculadora(12,5);
