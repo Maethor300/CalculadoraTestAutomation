@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 
 public class CalculadoraTest {
 
-        @Before
+     
         @Test
         public void sumaTest(){
             Calculadora calculadora = new Calculadora(3,4);
@@ -28,5 +28,10 @@ public class CalculadoraTest {
         Calculadora calculadora = new Calculadora(120,2);
         assertEquals(60, calculadora.division());
     }
-
+    @Test
+    public void mostrarInfo(){
+        Package junitPackage = org.junit.Assert.class.getPackage();
+        String junitVersion = junitPackage.getImplementationVersion();
+        System.out.println("JUnit version: " + junitVersion);
+    }
 }
