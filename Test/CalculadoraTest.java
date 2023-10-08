@@ -1,5 +1,4 @@
-package Calculadora;
-
+import Calculadora.Calculadora;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
