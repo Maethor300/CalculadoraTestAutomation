@@ -1,4 +1,4 @@
-package test.java;
+package test.java.com.tuempresa;
 
 import Calculadora.Calculadora;
 import org.junit.AfterClass;
